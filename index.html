@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yangshan Liu</title>
+    <!-- Favorites icon-->
+    <link rel = "shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Css -->
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" 
+    crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- For bootstrap icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico|Work+Sans" rel="stylesheet">
+</head>
+<body id="pagetop" style="background-color:rgb(245, 236, 223);">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light navbar-fixed-top mybar" role="navigation">
+        <a class="navbar-brand" id="myfont" href="#top">
+            <img src="imags/smile.jpeg" width="25" height="25" class="d-inline-block align-top" style="border-radius:50%" alt="logo">                   
+        Yangshan Liu!    
+        </a>
+    
+        <!-- collapse plugin and other navigation toggling behaviors. -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+            <ul class="nav navbar-nav mr-auto">
+                <li class="nav-item active"><a href="#pagetop" class="nav-link text-dark"><b>Home</b></a><span class="sr-only">(current)</span></li>
+                <li class="nav-item"><a href="#aboutMe" class="nav-link text-dark"><b>About me</b></a></li>
+                <li class="nav-item"><a href="#service" class="nav-link text-dark"><b>Services</b></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>Experience</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-warning" href="#experience">Work Experience</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-warning" href="#education">Education</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-warning" href="#project">Project Experience</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-dark"><b>Contact</b></a></li>
+            </ul>
+            <!-- Seach function -->
+            <form class="form-inline my-3 float-right" action="">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">🔍</span>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">                
+                </div>
+            </form><!-- End of Seach function -->
+        </div><!-- End of Menu -->
+    </nav> <!-- End of Navigation -->
+
+    <!-- Slides -->
+    <div id="aboutMe" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#aboutMe" data-slide-to="0" class="active"></li>
+            <li data-target="#aboutMe" data-slide-to="1"></li>
+            <li data-target="#aboutMe" data-slide-to="2"></li>
+            <li data-target="#aboutMe" data-slide-to="3"></li>
+        </ol>     
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imags/1.png" alt="Hainan">
+                <!-- Caption for the slide -->
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Hainan China</h3>
+                    <p>Min hemstad är Hainan, vilken är en vacker ö som ligger på södra Kina </p>
+                </div>
+            </div>     
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imags/2.png" alt="Beijing">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Beijing</h3>
+                    <p>Pluggade vid Communication University of China, Beijing.</p>
+                </div>
+            </div>      
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imags/3.png" alt="Beijing">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Beijing</h3>
+                    <p>Jag hade studerat och arbetat i Peking i åtta år.</p>
+                </div>                
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imags/4.png" alt="Stockholm">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Stockholm</h3>
+                    <p>Jag flyttade hit 2015. Nu studerar jag på Newton yrkeshögskola.</p>
+                </div>                
+            </div>
+        </div>     
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#aboutMe" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#aboutMe" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div><!-- End of Slides -->
+    
+    <!-- Service -->
+    <section id="service">
+        <div class="myheading">
+            <h1>Services</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 box">
+                    <div id="s1" class="innerbox">
+                        <div class="contentbox">
+                            <span><img src="imags/sapmm.png" alt="sapmm" style="height:80px; width:80px; border-radius:50%;"></span><br><br>
+                            <h3>SAP MM Consultant</h3><br>
+                            <p style="min-height:160px;">ERP (Enterprice Resourse Planning) <br>
+                            SAP Material Management module<br><br>
+                                <stan class="collapse" id="text1">Business research and process definition, requirements analysis and solutions design, configuring solutions, roles and authorities distribution, ABAP, LSMW, testing, training to clients and support.</stan>
+                            </p>                           
+                            <a href="#text1" data-toggle="collapse" class="btn btn-info">Read More</a><br><br>
+                        </div>
+                    </div>                    
+                </div>
+
+                <!-- <script src="js/jquery-3.2.1.min.js"></script>
+                <script>
+                        $(document).ready(function(){
+                            $("#s1").mouseover(function(){
+                                 $(this).addClass("innboxm");
+                            }); 
+                            $("#s1").mouseout(function(){
+                                    $(this).removeClass("innboxm");
+                            });
+                        });
+                </script> -->
+
+                <div class="col-md-4 box">
+                    <div class="innerbox">
+                        <div class="contentbox">
+                            <span><img src="imags/sapmm.png" alt="sapmm" style="height:80px; width:80px; border-radius:50%;"></span><br><br>
+                            <h3>Application Specialist</h3><br>
+                            <p style="min-height:160px;">According to instructions of system, configure the functions, set up users’ roles and authorities, test system and deliver training to clients.
+                                <stan class="collapse" id="text2"><br>Technology support within application sytem. Including business requirements research, processes definition and solutions design, system simulation and demonstration, testing.</stan>
+                            </p>
+                            <a href="#text2" data-toggle="collapse" class="btn btn-info">Read More</a><br><br>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="col-md-4 box">
+                    <div class="innerbox">
+                        <div class="contentbox">
+                            <span><img src="imags/sapmm.png" alt="sapmm" style="height:80px; width:80px; border-radius:50%;"></span><br><br>
+                            <h3>Application Programming</h3><br>
+                            <p style="min-height:160px;">Java programming.<br>
+                            Web programming and design.<br> 
+                            Mobile applications developing.
+                            <stan class="collapse" id="text3"><br>Studying how to make a responsive website.</stan>
+                        </p>
+                            <a href="#text3" data-toggle="collapse" class="btn btn-info">Read More</a><br><br>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section><!-- End of Service -->
+
+    <!-- Experience -->
+    <section id="experience" style="background-color: rgb(245,245,245);">
+        <div class="myheading">
+            <h1 class="myfont">Experience</h1>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 boxleft">
+                    <div style="padding-right:45px;">
+                        <h3 style="text-align:left">2010.08 - 2013.12</h3>
+                        <p>Beijing Richfit Information Technology Co, Ltd., BGP, CNPC</p>
+                        <p>Beijing, China</p>
+                    <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span> 
+                    </div>                   
+                                       
+                </div>
+                <div class="col-xs-12 col-sm-7 boxright">
+                    <div style="padding-left:45px; padding-bottom: 50px;">
+                        <h3>SAP MM Consultant</h3>
+                        <p style="text-align:right">ERP Consulting Department</p>
+                        <ul style="padding-left:2rem;">
+                            <li>Work in SAP MM module, including business research and process definition, requirements analysis and solutions design, configuring solutions, roles and authorities distribution, writing functional specifications (ABAP), uploading data (LSMW), testing, training to clients and support.</li>
+                            <li>Solve problems in support, optimising, and integrating system issues.</li>
+                            <li>Help out with transferring knowledge and projects’ documents to team members.</li>
+                        </ul> 
+                    </div>                                     
+                </div>
+
+                <div class="col-xs-12 col-sm-5 boxleft">
+                    <div style="padding-right:45px;">
+                        <h3 style="text-align:left">2013.12 - 2015.02</h3>
+                        <p>Beijing Richfit Information Technology Co, Ltd., BGP, CNPC</p>
+                        <p>Beijing, China</p>                        
+                    <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span> 
+                    </div>
+                                      
+                </div>
+                <div class="col-xs-12 col-sm-7 boxright">
+                    <div style="padding-left:45px; padding-bottom: 50px;">
+                        <h3>Application Specialist</h3>
+                        <p style="text-align:right">Hainan Branch Office</p>
+                        <ul style="padding-left:2rem;">
+                            <li>Implement Contract Management System. According to the instructions of the system, configure the functions, set up users’ roles and authorities, test system and deliver training to clients. Also support the system.</li>
+                            <li>Support Vehicle Management System. Based on the documents of the system, solve problems proposed by clients.</li>
+                            <li>Technology support in the tender group for the Haikou Party and Government’s Office Information Network System. Business requirements research, processes definition and solutions design. Be responsible for system simulation and demonstration as well. Help out with testing and writing functional specifications.</li>
+                        </ul>
+                    </div>                   
+                </div>
+            </div>
+        </div><br><br><br>
+
+        <hr>
+        <div id="education" class="container">
+            <div class="myheading">
+                    <h1 class="myfont">Education</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 boxleft">
+                    <div style="padding-right:45px;">
+                    <h3 style="text-align:left">2006.09 - 2010.06</h3>
+                    <br><br>
+                    <p>Beijing, China</p>
+                    <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span> 
+                </div>
+                                       
+                </div>
+                <div class="col-xs-12 col-sm-7 boxright">
+                    <div style="padding-left:45px; padding-bottom: 50px;">
+                    <h3>Communication University of China</h3>
+                    <p style="text-align:right">Department of Communication Engineering</p>
+                    <ul style="padding-left:2rem;">
+                    <li>Bachelor’s degree in Communication Engineering.</li>
+                    <li>Key courses: Programming in C and C++, Hardware Engineering, Communication Theory, etc.</li>
+                    </ul> 
+                    </div>                  
+                </div>
+
+                <div class="col-xs-12 col-sm-5 boxleft">
+                    <div style="padding-right:45px;">
+                    <h3 style="text-align:left">2015.05 - 2017.05</h3>
+                    <br><br>
+                    <p>Stockholm, Sweden</p>
+                    <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span> 
+                </div>  
+                                     
+                </div>
+                <div class="col-xs-12 col-sm-7 boxright">
+                    <div style="padding-left:45px; padding-bottom: 50px;">
+                    <h3>Vuxenutbildning i Stockholm</h3>
+                    <p style="text-align:right">Svenska Som Andraspråk</p>
+                    <ul style="padding-left:2rem;">
+                        <li>Svenska som andraspråk 3.</li>
+                    </ul>
+                    </div>                   
+                </div>
+
+                <div class="col-xs-12 col-sm-5 boxleft">
+                    <div style="padding-right:45px;">
+                    <h3 style="text-align:left">2017.08 - 2019.07</h3>
+                    <br><br>
+                    <p>Stockholm, Sweden</p>
+                    <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span> 
+                </div> 
+                                      
+                </div>
+                <div class="col-xs-12 col-sm-7 boxright">
+                    <div style="padding-left:45px; padding-bottom: 50px;">
+                    <h3>Newton Yrkeshögskola</h3>
+                    <p style="text-align:right">Applikationsutvecklare För Mobila Enheter</p>
+                    <ul style="padding-left:2rem;">
+                        <li>Student in the class Application Developer for Mobile Devices 2. </li>
+                        <li>Key couses: Object-oriented programming, Web Programming, User Experience, Application Development, Cross Platform Development, Agil Application Development, Interdisciplinary projects in application development</li>
+                    </ul>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section><!-- End of Experience -->
+
+    <!-- Project experience -->
+    <section id="project">
+        <div class="myheading">
+            <h1>Project Experience</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/sapmm.png'); 
+                    addheading('Engineering Technology ERP Support');
+                    addprodate('2010.08 - 2013.12');
+                    addproaddr('');
+                    addtext1('Solve the requirements and problems clients reported in SAP MM module.');
+                    addtext2('Write projects’ reports and other support documents.');">
+                        <div style="height:150px;">
+                            <img src="imags/sapmm.png" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                        <a href="#pbpart"><h5>Engineering Technology <br> ERP Support</h5></a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/p2.jpeg'); 
+                    addheading('New organisation of Western Drilling creating ');
+                    addprodate('2012.02 - 2012.03');
+                    addproaddr('Urumchi, Xinjiang, China');
+                    addtext1('In charge of SAP MM module implementing.');
+                    addtext2('Business research, process definition, system configuration, roles and authorities distribution, training, system testing, batch data importing, project go-live support.');">
+                        <div style="height:150px;">
+                            <img src="imags/p2.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>New organisation of Western Drilling creating</h5></a>
+                        </div>
+                    </div>
+                </div>     
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/p3.jpeg'); 
+                    addheading('Material main data clear-up for GWDC and CPOE');
+                    addprodate('2012.04 - 2013.06');
+                    addproaddr('Beijing, China');
+                    addtext1('Referring to the wrong and repeated material main data in the businesses of Great Wall Drilling Company and CNPC Offshore Engineering Company, clear up material planning, purchase order, reservation, storage and so on.');
+                    addtext2('Be responsible for modifying SAP material main data configuration, purchase order assessment, material reservation assessment, storage changing, documents recording and support.');">
+                        <div style="height:150px;">
+                            <img src="imags/p3.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>Material main data clear-up for GWDC and CPOE</h5></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/p4.jpeg'); 
+                    addheading('Integration with MDM system for CNPC Logging');
+                    addprodate('2012.08');
+                    addproaddr('Beijing, China');
+                    addtext1('The SAP system of CNPC Logging (CPL) integrates with the Main Data Management system. Configure SAP system, adjust authorities and modify development codes, test the interface system, upload data, and go-live support.');
+                    addtext2('Be responsible for SAP MM configuration, coordination with MDM, BASIS and ABAP departments, documents recording and system support.');">
+                        <div style="height:150px;">
+                            <img src="imags/p4.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>Integration with MDM system for CNPC Logging</h5></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/p5.jpeg'); 
+                    addheading('New organisation of Great Wall Drilling creating');
+                    addprodate('2012.09 - 2012.10');
+                    addproaddr('Panjin, Liaoning, China');
+                    addtext1('In charge of SAP MM module implementing.');
+                    addtext2('Business research, process definition, system configuration, roles and authorities distribution, training, system testing, batch data importing, project go-live support.');">
+                        <div style="height:150px;">
+                            <img src="imags/p5.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>New organisation of Great Wall Drilling creating</h5></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/p6.jpeg'); 
+                    addheading('New organisation of Bohai Drilling creating');
+                    addprodate('2013.05 - 2013.06');
+                    addproaddr('Qingyang, Shanxi, China');
+                    addtext1('In charge of SAP MM module implementing.');
+                    addtext2('Business research, process definition, system configuration, roles and authorities distribution, training, system testing, batch data importing, project go-live support.');">
+                        <div style="height:150px;">
+                            <img src="imags/p6.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>New organisation of Bohai Drilling <br> creating</h5></a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox" onclick="addpic('imags/p7.jpeg'); 
+                    addheading('Contract Management System for Fushan Oilfield');
+                    addprodate('2013.12 - 2014.02');
+                    addproaddr('Haikou, China');
+                    addtext1('System configuration, roles and authorities distribution, system test, training, go-live support, document recording and support.');
+                    addtext2('Support and document recording. Solve all problems reported by the users.');">
+                        <div style="height:150px;">
+                            <img src="imags/p7.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>Contract Management System for Fushan Oilfield </h5></a>
+                        </div>
+                    </div>
+                </div>                     
+                <div class="col-md-3 col-xs-12 p-2 projectbox">
+                    <div class="projectinnerbox"
+                    onclick="addpic('imags/p8.jpeg'); 
+                        addheading('Haikou Government’s Office Information Network System');
+                        addprodate('2014.03 - 2014.08');
+                        addproaddr('Haikou, Hainan, China');
+                        addtext1('Business research, requirements analysis, system simulation and demonstration, function development specifications writing, system test.');
+                        addtext2('Administration Management System research and report.');">
+                        <div style="height:150px;">
+                            <img src="imags/p8.jpeg" alt="ERP Support" height="150" width="150">
+                        </div>                         
+                        <div style="min-height: 120px; padding-top:40px; padding-bottom:40px">
+                            <a href="#pbpart"><h5>Haikou Government’s Office Information Network System</h5></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <!-- Project experience in detail -->
+        <div id="pbpart" class="container">
+            <div class="col-md-7 pr-md-5 probigbox">
+                <div style="padding-right:80px;">
+                    <p style="font-family: 'Pacifico', cursive; color:rgb(133, 83, 9); text-align:center;">
+                    Details aoubt project experince  
+                    </p>
+                    <h4 id="proh2" class="myheading">Engineering Technology ERP Support</h4>
+                    <p id="prodate" style="text-align:right;">2010.08 - 2013.12</p>
+                    <p id="proaddr" style="text-align:right;">Beijing, China</p>
+                    <img id="opic" height="230px" width="230px" src="imags/sapmm.png" alt="Picture"> 
+                    <br><br><br>             
+                    <p>
+                        <ul>
+                            <li id="protext1" style="text-align:left;">Solve the requirements and problems clients reported in SAP MM module.</li>
+                            <li id="protext2" style="text-align:left;">Write projects’ reports and other support documents.</li>
+                        </ul>
+                    </p>
+                </div> 
+            </div>  
+            <br><br> <div class="col-md-5" style="text-align:center;">
+                <h4 class="myheading">HTML Crash Course For Absolute Beginners</h4>
+                <iframe width="250" height="200" style="border:0"
+                    src="https://www.youtube.com/embed/UB1O30fR-EE" 
+                    allowfullscreen>
+                </iframe>
+                <br><br>
+                <div style="text-align:left; padding-left:20px">
+                    <p>Mer links:</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=3CtffcOffH4&t=9s">China Petroleum Engineering and Construction Corporation</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=fOt86EBSD-g&t=7s">2017 Top 10 ERP System Rankings</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=b3UviTldJjM&t=24s">Top 10 Best ERP Software Systems Of 2017</a></li>
+                    </ul>
+                </div> 
+            </div>           
+        </div><!-- end of Project experience in detail -->
+   </section><!-- End of Project experience -->
+
+    <!-- Contact -->
+    <section id="contact" style="background-color: rgb(179, 116, 57);">
+        <div class="myheading">
+            <h1>Contact</h1>
+        </div>
+        
+        <div class="container" style="padding-bottom:1rem;">
+
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <form method="post" action="">
+                        <input type="text" placeholder="Name" name="name" size="20" style="margin-right:1rem; margin-bottom:1rem;">
+                        <input type="email" placeholder="Email" name="email" size="25" style="margin-right:1rem; margin-bottom:1rem;">
+                        <textarea name="message" placeholder="Message.." required style="margin-right:1rem; margin-bottom:1rem; height:100px; width:95%"></textarea>
+                        <button class="btn btn-warning btn-sm" type="submit" onclick="alert('Your message is sent!')">Send</button>
+                    </form>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6" style="margin-top:4rem;">
+                    <div class="row">
+                        <div class="col-xs-1"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></div>
+                        <div class="col-xs-4"><p><strong>Call me:</strong></p></div>
+                        <div class="col-xs-7"><p>+4672 039 61 87</p></div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-1"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+                        <div class="col-xs-4"><p><strong>Mail me:</strong></div>
+                        <div class="col-xs-7"><p><a href="mailto:yangshan.liu55@gmail.com?subject=From%20Website" target="_top"></a>yangshan.liu55@gmail.com</p></div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+        </div>
+
+    </section><!-- Contact -->
+    <!-- Copyright -->
+    <div  style="background-color: rgb(95, 62, 31);">
+        <p class="text-white ml-4">&copy; Copyright 2017</p>
+    </div><!-- End of Copyright -->
+
+    <!-- Top button -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top"> &#8682; </button>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- collapse can only work with JAVASCRIPT!!! Anars inte fungera!! -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Custom js -->
+    <script src="js/myjs.js"></script>
+
+</body>
+</html>
